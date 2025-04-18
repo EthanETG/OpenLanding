@@ -5,6 +5,24 @@ const INFORMATION = [
      "websiteName" => "EthanTheGreat", // The name of the website displayed in the title. Ex: Welcome - EthanTheGreat, where EthanTheGreat is the website name.
      "favicon" => "https://ethanthegreat.com/images/logo_circle.png" // The link or path to your pages favicon. 
     ],
+    /* 
+    How to use colors:
+
+    I used hex codes to control colors.
+
+    If you want to edit colors,
+        1. Find the valid hex code. Ex. ffffff (white)
+        2. Paste the hex code in the place you want it to replace. Ex. "background"
+        3. Make sure to NOT include the '#' before the hex value, as this is already included in the code.
+    
+    NOTE: These are pre-set variables. You cannot add something like drop-shadow and expect it to work. You must edit the CSS and add custom variables for this to work.
+    */
+    "colors" => [
+        "background" => "15171c",
+        "foreground" => "282b36",
+        "text" => "ffffff",
+        "text-hover" => "d6d6d6",
+    ],
     "author" => [
         "name" => "EthanTheGreat", // The name of the author to be displayed on the page.
         "logo" => [
