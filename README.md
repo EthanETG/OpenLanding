@@ -2,7 +2,7 @@
 A simple open-source landing page. Provides a number of customizable options for, including custom text, colors, and images.
 
 ## Installation
-**PHP 8.1 or higher is required**
+**PHP 8.1 or higher is required!**
 
 To install OpenLanding, you first need to acquire a domain and hosting.
 
